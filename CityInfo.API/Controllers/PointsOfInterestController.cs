@@ -51,7 +51,7 @@ namespace CityInfo.API.Controllers
             //}
         }
 
-
+        //This is get request
         [HttpGet("{pointOfInterestId}", Name = "GetPointOfInterest")]
         public async Task<ActionResult<PointOfInterestDto>> GetPointOfInterest(int cityId, int pointOfInterestId)
         {
